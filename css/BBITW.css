@@ -155,6 +155,7 @@ h2 {
 .gallery img:hover {
     cursor: pointer;
     box-sizing: border-box;
+    transform: scale(1.05);
 }
 
 /* Fin de Galeria */
