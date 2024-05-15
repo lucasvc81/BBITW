@@ -135,6 +135,31 @@ h2 {
 
 /* Fin del Home */
 
+/* Inicio Gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 45%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Fin de Galeria */
+
+
 /* Empieza Sobre Nosotros */
 
 .historia p {
@@ -221,25 +246,6 @@ h2 {
 }
 
 /* Fin de servicios */
-
-/* Inicio Galeria */
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.galeria img {
-    width: 45%;
-    border: 1px solid black;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 2%;
-}
-
-/* Fin de Galeria */
 
 /* Inicio contacto */
 
